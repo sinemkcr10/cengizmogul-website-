@@ -5,7 +5,7 @@
   <meta content="width=device-width,initial-scale=1.0" name="viewport"/>
   <link href="/assets/css/style.css" rel="stylesheet"/>
   <title>
-   Y&ouml;netim / Ekip | Cengiz Mogul Groups
+   &Idot;leti&scedil;im | Cengiz Mogul Groups
   </title>
  </head>
  <body>
@@ -61,30 +61,69 @@
   <main>
    <section class="page-hero">
     <p class="eyebrow">
-     07 &mdash; Y&Ouml;NETIM / EKIP
+     05 &mdash;
+     <span data-i18n="nav.contact">
+      &Idot;LET&Idot;&Scedil;&Idot;M
+     </span>
     </p>
-    <h1>
-     Do&gbreve;ru ekip,
+    <h1 data-i18n="contact.title">
+     Bir fikriniz mi var?
      <br/>
      <em>
-      ortak vizyon.
+      Konu&scedil;al&inodot;m.
      </em>
     </h1>
    </section>
-   <section class="section">
-    <div class="split">
-     <h2>
-      Y&ouml;netim / Ekip
-     </h2>
-     <div>
-      <p class="large">
-       Alan&inodot;nda deneyimli y&ouml;netim ve ekip yap&inodot;m&inodot;zla farkl&inodot; i&scedil; alanlar&inodot;n&inodot; ortak bir vizyon etraf&inodot;nda bulu&scedil;turuyoruz.
-      </p>
-      <p>
-       Bu b&ouml;l&uuml;m, kurumsal i&ccedil;erikleriniz ve detaylar&inodot;n&inodot;z haz&inodot;r oldu&gbreve;unda kolayca g&uuml;ncellenebilir.
+   <section class="section contact-grid">
+    <div>
+     <div class="contact-item">
+      <small>
+       E-MAIL
+      </small>
+      <a href="mailto:info@cengizmogulgroups.com">
+       info@cengizmogulgroups.com
+      </a>
+     </div>
+     <div class="contact-item">
+      <small>
+       PHONE
+      </small>
+      <a href="tel:+905000000000">
+       +90 500 000 00 00
+      </a>
+     </div>
+     <div class="contact-item">
+      <small>
+       ADDRESS
+      </small>
+      <p data-i18n="contact.address">
+       T&uuml;rkiye
       </p>
      </div>
     </div>
+    <form id="contactForm">
+     <label data-i18n="contact.name">
+      Ad Soyad
+      <input required=""/>
+     </label>
+     <label data-i18n="contact.email">
+      E-posta
+      <input required="" type="email"/>
+     </label>
+     <label data-i18n="contact.subject">
+      Konu
+      <input required=""/>
+     </label>
+     <label data-i18n="contact.message">
+      Mesaj
+      <textarea required="" rows="6"></textarea>
+     </label>
+     <button class="btn primary" data-i18n="contact.send" type="submit">
+      Mesaj G&ouml;nder
+     </button>
+     <p id="formMessage">
+     </p>
+    </form>
    </section>
   </main>
   <footer class="footer">
@@ -102,8 +141,8 @@
    <p>
     &copy; 2026 Cengiz Mogul Groups.
    </p>
-   <a data-i18n="nav.contact" href="/contact/">
-    &Idot;leti&scedil;im
+   <a data-i18n="nav.home" href="/">
+    Ana Sayfa
    </a>
   </footer>
   <script src="/assets/js/main.js">
