@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 92" role="img" aria-label="MOGUL Transport & Logistics">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c9943f"/>
+      <stop offset="0.52" stop-color="#e3bd70"/>
+      <stop offset="1" stop-color="#b77b27"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(4 3)">
+    <circle cx="48" cy="42" r="35" fill="none" stroke="url(#gold)" stroke-width="3.2"/>
+    <path d="M0 33h33l8 8H9zM3 43h34l7 7H12zM8 53h31l6 6H17z" fill="url(#gold)"/>
+    <path d="M96 33H63l-8 8h32zM93 43H59l-7 7h32zM88 53H57l-6 6h28z" fill="url(#gold)"/>
+    <path d="M31 22h13l10 22 11-22h13L62 60H49z" fill="#0b3569"/>
+  </g>
+  <text x="112" y="49" font-family="Arial,Helvetica,sans-serif" font-size="41" font-weight="800" letter-spacing="-1.2" fill="#0b3569">MOGUL</text>
+  <text x="116" y="72" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="0.35" fill="#0b3569">TRANSPORT &amp; LOGISTICS</text>
+</svg>
